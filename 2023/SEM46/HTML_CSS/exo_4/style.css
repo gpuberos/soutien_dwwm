@@ -1,0 +1,27 @@
+.rec-blue {
+    background-color: aqua;
+    
+    /* hauteur et largeur */
+    width: 800px;
+    height: 800px;
+    
+    /* Relative c'est moi ton parent */   
+    position: relative;
+}
+
+.rec-red {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+.rec-purple {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+
+    /* Par défaut le top est 0 et le left 0 */
+    /* Absolute maitre de tout le monde il se positionne soit sur un relative soit sur le body par défaut */
+    position: absolute;
+    right: 0;
+}

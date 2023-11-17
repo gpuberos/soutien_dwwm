@@ -1,0 +1,23 @@
+/* 
+    Par défaut les positions sont static
+*/
+
+.rec-blue {
+    background-color: aqua;
+    
+    /* hauteur et largeur */
+    width: 800px;
+    height: 800px;
+}
+
+.rec-red {
+    background-color: red;
+    width: 400px;
+    height: 400px;   
+}
+
+.rec-purple {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}

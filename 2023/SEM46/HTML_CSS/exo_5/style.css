@@ -1,0 +1,44 @@
+/* 
+Ajout d'une class afin de regrouper 
+des propriétés et valeurs répétitives pour qu'elles deviennent réutilisables
+selecteur {nomdepropriété-valeurdepropriété}
+*/
+
+.box-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* 
+    Transform: translate
+    ---------------------
+
+    top: 50%; et left: 50%; : Ces propriétés positionnent le point supérieur gauche de l'élément au milieu de son conteneur parent. 
+    Ainsi, le coin supérieur gauche de l'élément se trouve à 50% de la hauteur et 50% de la largeur du parent.
+
+    transform: translate(-50%,-50%); : Cette propriété déplace l'élément de 50% de sa propre largeur vers la gauche et de 50% de 
+    sa propre hauteur vers le haut. Cela corrige le décalage initial créé par top: 50%; et left: 50%;, qui positionne le coin supérieur gauche 
+    de l'élément au centre du parent. Avec translate(-50%, -50%), le centre de l'élément lui-même est maintenant positionné au centre du parent.
+
+    */
+
+    transform: translate(-50%,-50%);
+}
+
+.rec-blue {
+    background-color: aqua;
+    width: 800px;
+    height: 800px;
+}
+
+.rec-red {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+.rec-purple {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}

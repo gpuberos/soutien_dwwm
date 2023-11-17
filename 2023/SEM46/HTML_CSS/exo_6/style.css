@@ -1,0 +1,48 @@
+/* 
+    Positionner en utilisant le display: flex
+*/
+
+/* 
+1. 3 rectangles (div), chacun a une ascendance sur l'autre
+2. Centrer chaque élément verticalement et horizontalement:
+ - le bleu (grand-parent) par rapport au body
+ - le rouge (le parent) par rapport au bleu
+ - le violet (l'enfant) par rapport au rouge
+ 
+ Ils auront le même noyau.
+
+*/
+
+body {
+    /* Hauteur de 100% */
+    height: 100vh;
+}
+
+.box-center {
+    display: flex;
+    
+    /* Justifie le contenu horizontalement (droite gauche) */
+    justify-content: center; 
+
+    /* Alignement vertical (haut bas) */
+    align-items: center;
+}
+
+.rec-blue {
+    background-color: aqua;
+    width: 800px;
+    height: 800px;
+}
+
+.rec-red {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+.rec-purple {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
