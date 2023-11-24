@@ -34,4 +34,6 @@ while (prix != justePrix) {
 }
 
 // Le prix de l'utilisateur étant égal, afficher qu'il a trouvé le Juste Prix
-alert("Juste Prix !");
+if (justePrix == prix) {
+    alert("Juste Prix !");
+}
