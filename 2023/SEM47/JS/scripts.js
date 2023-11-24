@@ -1,8 +1,3 @@
-/* 
-
-
-*/
-
 /*
     PSEUDO-CODE
     un prix à deviner
@@ -15,7 +10,6 @@
         FIN TANT QUE 
     SI LE PRIX EST EGALE AU PRIX A DEVINER 
     JE DIS A L'UTILISATEUR QU'IL A GAGNE
-
 */
 
 let justePrix = 26;
