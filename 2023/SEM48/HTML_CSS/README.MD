@@ -1,6 +1,6 @@
 #Media Queries
 
-```<meta name="**viewport**" content="width=device-width,initial-scale=**1**" />```
+```<meta name="viewport" content="width=device-width,initial-scale=1" />```
 
 Cette balise meta dit aux navigateurs mobiles qu'ils doivent ajuster la largeur de la fenêtre à la largeur de l'écran de l'appareil, et mettre l'échelle du document à 100% de sa taille prévue, affichant le document à la taille optimisée pour les mobiles que vous vouliez. 
 
