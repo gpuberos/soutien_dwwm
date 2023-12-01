@@ -8,11 +8,11 @@ Vous devriez donc toujours inclure la ligne HTML ci-dessus dans la tête de vos 
 
 Il existe d'autres paramètres que vous pouvez utiliser avec la balise **meta** **viewport**, **mais en général, la ligne ci-dessus est celle que vous utiliserez**.
 
-- initial-scale: Définit le zoom initial de la page, que nous définissons à 1. 
-- height: Definit une hauteur spécifique pour la fenêtre. 
-- minimum-scale: Définit le niveau minimal de zoom 
-- maximum-scale: Définit le niveau maximal de zoom. 
-- user-scalable: Empêche le zoom si défini à no. 
+- **initial-scale** : Définit le zoom initial de la page, que nous définissons à 1. 
+- **height** : Definit une hauteur spécifique pour la fenêtre. 
+- **minimum-scale** : Définit le niveau minimal de zoom 
+- **maximum-scale** : Définit le niveau maximal de zoom. 
+- **user-scalable** : Empêche le zoom si défini à no. 
 
 Vous devriez éviter d'utiliser minimum-scale, maximum-scale, et en particulier la définition de user-scalable sur no. Les utilisateurs devraient être autorisés à zoomer autant ou aussi peu que nécessaire; éviter cela entraîne des problèmes d'accessibilité.
 
