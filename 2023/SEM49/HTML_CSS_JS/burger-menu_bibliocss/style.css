@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    margin: 2px;
+}
+
+.burger {
+    margin: 5px;
+    border-radius: 5%;
+    background: #fafafa;
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.nav {
+    transition: 0.5s;
+    overflow: hidden;
+    height: auto;
+}
+
+.navbar.active .nav {
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.border {
+    border: 1px black solid;
+}
+
+.border-bottom {
+    border-bottom: 1px black solid;
+}
+
+.border-top {
+    border-top: 1px black solid;
+}
+
+.border-left {
+    border-left: 1px black solid;
+}
+
+.border-right {
+    border-right: 1px black solid;
+}
+
+.bg-primary {
+    background: blue;
+}
+
+.bg-warning {
+    background: orange;
+}
+
+.bg-danger {
+    background: red;
+}
+
+.bg-segondary {
+    background: gray;
+}
+
+.bg-succes {
+    background: green;
+}
+
+.bg-dark {
+    background: black;
+}
+
+.bg-info {
+    background: rgb(0, 157, 255);
+}
+
+.bg-light {
+    background: #fafafa;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-initial {
+    text-align: initial;
+}
+
+.text-primary {
+    color: blue;
+}
+
+.text-warning {
+    color: orange;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-segondary {
+    color: gray;
+}
+
+.text-succes {
+    color: green;
+}
+
+.text-dark {
+    color: black;
+}
+
+.text-info {
+    color: rgb(0, 157, 255);
+}
+
+.text-light {
+    color: #fafafa;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.ms-1 {
+    margin-left: 10px;
+}
+
+.ms-2 {
+    margin-left: 20px;
+}
+
+.ms-3 {
+    margin-left: 30px;
+}
+
+.ms-4 {
+    margin-left: 40px;
+}
+
+.ms-5 {
+    margin-left: 50px;
+}
+
+.me-1 {
+    margin-right: 10px;
+}
+
+.me-2 {
+    margin-right: 20px;
+}
+
+.me-3 {
+    margin-right: 30px;
+}
+
+.me-4 {
+    margin-right: 40px;
+}
+
+.me-5 {
+    margin-right: 50px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 756px) {
+    .nav {
+        height: 0;
+    }
+
+    .sm-d-flex {
+        display: flex;
+    }
+
+    .sm-d-block {
+        display: block;
+    }
+
+    .sm-d-none {
+        display: none;
+    }
+
+    .sm-d-grid {
+        display: grid;
+    }
+
+    .sm-flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .sm-flex-direction-row {
+        flex-direction: row;
+    }
+
+    .sm-flex-direction-column {
+        flex-direction: column;
+    }
+
+    .sm-justify-content-center {
+        justify-content: center;
+    }
+
+    .sm-justify-content-start {
+        justify-content: start;
+    }
+
+    .sm-justify-content-end {
+        justify-content: end;
+    }
+
+    .sm-justify-content-space-between {
+        justify-content: space-between;
+    }
+
+    .sm-justify-content-space-around {
+        justify-content: space-around;
+    }
+
+    .sm-align-items-start {
+        align-items: start;
+    }
+
+    .sm-align-items-center {
+        align-items: center;
+    }
+
+    .sm-align-items-end {
+        align-items: end;
+    }
+
+    .sm-border {
+        border: 1px black solid;
+    }
+
+    .sm-border-bottom {
+        border-bottom: 1px black solid;
+    }
+
+    .sm-border-top {
+        border-top: 1px black solid;
+    }
+
+    .sm-border-left {
+        border-left: 1px black solid;
+    }
+
+    .sm-border-right {
+        border-right: 1px black solid;
+    }
+
+    .sm-bg-primary {
+        background: blue;
+    }
+
+    .sm-bg-warning {
+        background: orange;
+    }
+
+    .sm-bg-danger {
+        background: red;
+    }
+
+    .sm-bg-segondary {
+        background: gray;
+    }
+
+    .sm-bg-succes {
+        background: green;
+    }
+
+    .sm-bg-dark {
+        background: black;
+    }
+
+    .sm-bg-info {
+        background: rgb(0, 157, 255);
+    }
+
+    .sm-bg-light {
+        background: #fafafa;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    .sm-text-initial {
+        text-align: initial;
+    }
+
+    .sm-text-primary {
+        color: blue;
+    }
+
+    .sm-text-warning {
+        color: orange;
+    }
+
+    .sm-text-danger {
+        color: red;
+    }
+
+    .sm-text-segondary {
+        color: gray;
+    }
+
+    .sm-text-succes {
+        color: green;
+    }
+
+    .sm-text-dark {
+        color: black;
+    }
+
+    .sm-text-info {
+        color: rgb(0, 157, 255);
+    }
+
+    .sm-text-light {
+        color: #fafafa;
+    }
+
+    .sm-mt-1 {
+        margin-top: 10px;
+    }
+
+    .sm-mt-2 {
+        margin-top: 20px;
+    }
+
+    .sm-mt-3 {
+        margin-top: 30px;
+    }
+
+    .sm-mt-4 {
+        margin-top: 40px;
+    }
+
+    .sm-mt-5 {
+        margin-top: 50px;
+    }
+
+    .sm-ms-1 {
+        margin-left: 10px;
+    }
+
+    .sm-ms-2 {
+        margin-left: 20px;
+    }
+
+    .sm-ms-3 {
+        margin-left: 30px;
+    }
+
+    .sm-ms-4 {
+        margin-left: 40px;
+    }
+
+    .sm-ms-5 {
+        margin-left: 50px;
+    }
+
+    .sm-me-1 {
+        margin-right: 10px;
+    }
+
+    .sm-me-2 {
+        margin-right: 20px;
+    }
+
+    .sm-me-3 {
+        margin-right: 30px;
+    }
+
+    .sm-me-4 {
+        margin-right: 40px;
+    }
+
+    .sm-me-5 {
+        margin-right: 50px;
+    }
+
+    .sm-mb-1 {
+        margin-bottom: 10px;
+    }
+
+    .sm-mb-2 {
+        margin-bottom: 20px;
+    }
+
+    .sm-mb-3 {
+        margin-bottom: 30px;
+    }
+
+    .sm-mb-4 {
+        margin-bottom: 40px;
+    }
+
+    .sm-mb-5 {
+        margin-bottom: 50px;
+    }
+}
