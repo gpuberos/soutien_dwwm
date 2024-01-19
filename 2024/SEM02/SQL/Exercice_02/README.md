@@ -243,9 +243,11 @@ On utilisera `AS` pour créer des alias
 La fonction `GROUP_CONCAT()` de MySQL est utilisée pour concaténer les données de plusieurs lignes dans un seul champ.
 Dans notre cas elle est utiliséd pour regrouper les langues et éviter d'avoir le même titre de film plusieurs fois avec une langue différente à chaque fois.
 
-`FROM` : spécifie la table source en utilisant
-`JOIN` : créer les jointures avec la table en utilisant la Foreign Key (Clé étrangère)
-`GROUP BY` : on groupe les résultats par l'identifiant unique (movie.id) de chaque film
+`FROM` : spécifie la table source en utilisant.
+
+`JOIN` : créer les jointures avec la table en utilisant la Foreign Key (Clé étrangère).
+
+`GROUP BY` : on groupe les résultats par l'identifiant unique `movie.id` de chaque film. 
 
 Sources :
 - https://www.geeksforgeeks.org/mysql-group_concat-function/
