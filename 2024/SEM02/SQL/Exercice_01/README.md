@@ -8,9 +8,9 @@ mysql -u root -p"" vehicule_base < vehicule_base_export.sql
 ```
 ### Réponse :
 
-On utilisera la table de jointure (conducteur_vehicule) pour compter les véhicules.
+On utilisera la table de jointure `conducteur_vehicule` pour compter les véhicules.
 
-conducteur.name est le nom du conducteur et conducteur_vehicule.vehiculeID est l’ID du véhicule dans la table de jointure. Cette requête retournera le nombre de véhicules que chaque conducteur possède.
+`conducteur.name` est le nom du conducteur et `conducteur_vehicule.vehiculeID` est l’ID du véhicule dans la table de jointure. Cette requête retournera le nombre de véhicules que chaque conducteur possède.
 
 ```
 SELECT conducteur.name, COUNT(conducteur_vehicule.vehiculeID) AS nombre_de_vehicules
