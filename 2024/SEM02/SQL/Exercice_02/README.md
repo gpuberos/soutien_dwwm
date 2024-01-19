@@ -1,7 +1,7 @@
 # Exercice 2 - SQL
 
 > [!IMPORTANT]
-> On devra s'inspirer du fichier Excel fourni par le client pour réaliser la base de données [dbmovie.xlsx](/2024/SEM02/SQL/Exercice_02/ressources/dbmovie.xlsx).
+> On devra s'inspirer du fichier Excel [dbmovie.xlsx](/2024/SEM02/SQL/Exercice_02/ressources/dbmovie.xlsx) fourni par le client pour réaliser la base de données.
 
 ## Diagramme UML de dbmovie_utopia
 
