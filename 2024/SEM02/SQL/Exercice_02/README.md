@@ -70,6 +70,11 @@ CREATE TABLE movie_language (
 ```
 ## Insertion des données dans les tables :
 
+> [!IMPORTANT]
+> Les guillemets simples `'` sont utilisés pour délimiter les chaînes de caractères. Si vous voulez inclure un guillemet simple dans la chaîne elle-même, vous devez l’échapper en utilisant deux guillemets simples `''`.
+> Par exemple, pour insérer le titre du film Schindler’s List dans une base de données SQL, vous devez écrire `'Schindler''s List'`.  
+> Merci à [@BenyOblomov](https://github.com/BenyOblomov) pour l'information.
+
 ```
 INSERT INTO companies (company) VALUES
 ('Columbia Pictures'),
