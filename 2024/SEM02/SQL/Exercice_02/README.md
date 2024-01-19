@@ -329,7 +329,7 @@ J'ai également adapté le nombre de caractères stockés en fonction des limite
 
 Par exemple :
 - `budget` et `box_office` sont limités sont de type **INT(18)** soit un trillion.
-- `company`, `language`, genre et director sont de type **VARCHAR(50)** limité à 50 caractères.
+- `company`, `language`, `genre` et `director` sont de type **VARCHAR(50)** limité à 50 caractères.
 
 ## Astuces
 
