@@ -241,7 +241,7 @@ Requête pour afficher le tableau avec les données :
 On utilisera `AS` pour créer des alias
 
 La fonction `GROUP_CONCAT()` de MySQL est utilisée pour concaténer les données de plusieurs lignes dans un seul champ.
-Dans notre cas elle est utiliséd pour regrouper les langues et éviter d'avoir le même titre de film plusieurs fois avec une langue différente à chaque fois.
+Dans notre cas elle est utilisé pour regrouper les langues et éviter d'avoir le même titre de film plusieurs fois avec une langue différente à chaque fois.
 
 `FROM` : spécifie la table source en utilisant.
 
