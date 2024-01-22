@@ -255,7 +255,7 @@ Sources :
 - https://sql.sh/fonctions/group_concat
 - https://www.w3schools.com/sql/sql_groupby.asp
 
-```
+```sql
 SELECT
     m.id AS movie_id,
     m.title,
