@@ -12,7 +12,7 @@ On utilisera la table de jointure `conducteur_vehicule` pour compter les véhicu
 
 `conducteur.name` est le nom du conducteur et `conducteur_vehicule.vehiculeID` est l’ID du véhicule dans la table de jointure. Cette requête retournera le nombre de véhicules que chaque conducteur possède.
 
-```
+```sql
 SELECT conducteur.name, COUNT(conducteur_vehicule.vehiculeID) AS nombre_de_vehicules
 FROM conducteur
 JOIN conducteur_vehicule ON conducteur.id = conducteur_vehicule.conducteurID

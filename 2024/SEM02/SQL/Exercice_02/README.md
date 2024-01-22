@@ -21,7 +21,7 @@ mysql -u root -p
 
 Dans la console de mysql, tapez les lignes suivantes :
 
-```
+```sql
 CREATE DATABASE dbmovie_utopia;
 USE dbmovie_utopia;
 
@@ -75,7 +75,7 @@ CREATE TABLE movie_language (
 > Par exemple, pour insérer le titre du film Schindler’s List dans une base de données SQL, vous devez écrire `'Schindler''s List'`.  
 > Merci à [@BenyOblomov](https://github.com/BenyOblomov) pour l'information.
 
-```
+```sql
 INSERT INTO companies (company) VALUES
 ('Columbia Pictures'),
 ('Gaumont Film Company'),
