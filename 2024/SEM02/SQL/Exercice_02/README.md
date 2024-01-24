@@ -319,7 +319,7 @@ Exemple :
 ### Adaptation du type de données en fonction des valeurs
 
 Exemple :
-- `year_realed` est de type **YEAR**
+- `year_released` est de type **YEAR**
 - `duration` est de type **TIME**
 
 Source : 
