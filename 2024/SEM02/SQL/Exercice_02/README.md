@@ -48,10 +48,10 @@ CREATE TABLE directors (
 CREATE TABLE movie (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
-    rating DECIMAL(2,1),
+    rating FLOAT,
     year_released INT(4),
-    budget INT(18),
-    box_office INT(18),
+    budget BIGINT,
+    box_office BIGINT,
     companyID INT,
     genreID INT,
     directorID INT,
@@ -328,7 +328,7 @@ Source :
 J'ai également adapté le nombre de caractères stockés en fonction des limites existantes.
 
 Par exemple :
-- `budget` et `box_office` sont limités sont de type **INT(18)** soit un trillion.
+- `budget` et `box_office` sont de type **BIGINT**.
 - `company`, `language`, `genre` et `director` sont de type **VARCHAR(50)** limité à 50 caractères.
 
 ## Astuces
